@@ -1,0 +1,41 @@
+.clearfix {
+	float: none	;
+	clear:both;
+}
+
+h4 {
+	font-size:1.2em;
+	display: inline-block;
+}
+
+.list-title {
+	font-size:1.2em;
+	margin: 10px 0 5px;
+	display: inline-block;
+}
+
+.list-text {
+	display:inline-block;
+}
+
+#projects {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#projects ul li {
+	width: 350px;
+	margin: 25px 0;
+	padding: 0 20px;	
+	display: block;
+	float:left;
+	list-style-type: none;
+}
+
+#projects ul li h4 {
+	margin: 10px 0 5px;
+}
+
+#publications li ul li {
+	list-style-type: circle;
+}

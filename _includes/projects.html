@@ -1,0 +1,15 @@
+<div id="projects">
+<h1 class="page-heading">Projects</h1>
+<ul class="post-list">
+{% assign pages = site.pages | sort:"date"  %}
+{% for page in pages reversed %}{% if page.layout == 'project' %}
+	<li>
+		<a class="project-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
+			<img src="{{ site.url }}/assets/{{ page.preview_image }}" title="{{ page.title }}" alt="Preview: {{ page.title }}" />
+			<span class="list-title">{{ page.title }}</span>
+		</a>
+		<span class="list-text">{{ page.excerpt }}</span>		
+	</li>
+{% endif %}{% endfor %}
+</ul>
+</div>

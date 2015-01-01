@@ -1,0 +1,10 @@
+<div id="talks-exhibitions">
+	<h3>Talks &amp; Exhibitions</h3>
+	<ul>
+		{% for item in site.data.talks_exhibitions %}
+		<li>
+			<strong>{{ item.title }}</strong> on {{ item.date | date: "%a, %b %d, %Y" }}, at <a href="{{ item.link }}" title="External link: {{ item.title}}">{{ item.location }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>

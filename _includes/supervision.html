@@ -1,0 +1,15 @@
+<div id="teaching">
+	<h3>Supervised Theses &amp; Study Projects</h3>
+	<ul>
+		{% for item in site.data.supervision %}
+		<li>
+			{% case item.type %}
+			{% when "thesis" %}
+			<strong>{{ item.title }}</strong>, {{ item.person }}, {{ item.subtype }}, {{ item.year }}
+			{% when "study_project" %}
+			<strong>{{ item.title }}</strong>, Study Project <em>{{ item.project }}</em>, {{ item.semester }}
+			{% endcase %}
+		</li>
+		{% endfor %}
+	</ul>
+</div>

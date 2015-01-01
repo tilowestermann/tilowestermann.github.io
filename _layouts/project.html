@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+	<h1 class="post-title">{{ page.title }}</h1>
+	<img src="{{ site.url }}/assets/{{ page.cover_image }}" id="project-image" title="{{ page.title }}" alt="{{ page.title }}" />
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+
+{% if page.team.size > 0 %}
+<h2>Team</h2>
+<ul>
+{% for person in page.team %}
+	<li>{% if person.homepage %}<a href="{{ person.homepage}}" title="Homepage of {{ person.name }}">{% endif %}{{ person.name }}{% if person.homepage %}</a>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign related_publications_count = 0 %}
+{% for publication in site.data.publications %}
+{% if publication.tags contains page.short_name %}
+{% assign related_publications_count = related_publications_count | plus:1 %}
+{% endif %}
+{% endfor %}
+{% if related_publications_count > 0 %}
+<h2>Related Publications</h2>
+<ul>
+{% for publication in site.data.publications %}
+{% if publication.tags contains page.short_name %}
+	<li>{{ publication.reference }}</li>
+{% endif %}
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if page.links.size > 0 %}
+<h2>Links</h2>
+<ul>
+{% for link in page.links %}
+<li><a href="{{link.href}}" title="{{link.title}}">{{link.title}}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+  </article>
+
+</div>

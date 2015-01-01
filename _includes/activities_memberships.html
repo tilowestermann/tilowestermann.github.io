@@ -1,0 +1,10 @@
+<div id="activities">
+	<h3>Activities &amp; Memberships</h3>
+	<ul>
+		{% for item in site.data.activities_memberships %}
+		<li>
+			<strong>{{ item.type }}</strong> {{ item.preposition }} {% for organization in item.organizations %}<a href="{{ organization.link }}">{{ organization.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+		</li>
+		{% endfor %}
+	</ul>
+</div>

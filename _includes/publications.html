@@ -1,0 +1,14 @@
+<div id="publications">
+<h1 class="page-heading">Publications</h1>
+	
+{% for publication in site.data.publications reversed %}
+{% capture currentyear %}{{ publication.year }}{% endcapture %}
+{% if currentyear != year %}
+{% unless forloop.first %}</ul>{% endunless %}
+<strong>{{ currentyear }}</strong>
+<ul class="post-list">
+{% capture year %}{{currentyear}}{% endcapture %} {% endif %}
+	<li>{{ publication.reference | remove: '<p>' | remove: '</p>' }}</li>
+{% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+</div>

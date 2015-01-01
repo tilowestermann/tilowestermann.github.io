@@ -1,0 +1,15 @@
+# Site settings
+title: Tilo Westermann
+email: tilo.westermann@tu-berlin.de
+description: PhD student @ Quality and Usability Lab, Telekom Innovation Laboratories, TU Berlin
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://tilowestermann.eu"
+twitter_username: tilowestermann
+github_username:  tilowestermann
+qu_username:  tilo_westermann
+fb_username: tilo.westermann
+so_username: 184245
+linkedin_username: tilowestermann
+
+# Build settings
+markdown: kramdown

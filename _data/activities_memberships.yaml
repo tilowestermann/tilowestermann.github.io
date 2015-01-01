@@ -1,0 +1,14 @@
+- type: "Member"
+  preposition: "of the"
+  organizations:
+  - {name: "Gesellschaft für Informatik e.V.", link: "http://www.gi.de"}
+  - {name: "Association for Computing Machinery (ACM)", link: "http://www.acm.org"}
+- type: "Jury Member"
+  preposition: "for"
+  organizations:
+  - {name: "Open Innovation Slam by EIT Climate KIC", link: "http://openinnovationslam.org"}
+- type: "Reviewer"
+  preposition: "for"
+  organizations:
+  - {name: "International Journal of Human-Computer Studies", link: "http://www.journals.elsevier.com/international-journal-of-human-computer-studies"}
+  - {name: "CHI", link: "http://www.sigchi.org"}

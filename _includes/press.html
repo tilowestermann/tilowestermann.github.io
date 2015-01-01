@@ -1,0 +1,10 @@
+<div id="press">
+	<h3>Press</h3>
+	<ul>
+		{% for item in site.data.press %}
+		<li>
+			<strong>{{ item.publisher }}</strong> on {{ item.date | date: "%a, %b %d, %Y" }}. <a href="{{ item.link }}" title="External link: {{ item.publisher }}: {{ item.title }}">{{ item.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
