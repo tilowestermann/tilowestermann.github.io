@@ -17,4 +17,4 @@ links:
 
 CapWidgets are passive tangible controls for capacitive touch screens. CapWidgets bring back physical controls to off-the-shelf multi-touch surfaces as found in mobile phones and tablet computers. While the user touches the widget, the surface detects the capacitive marker on the widget’s underside. CapWidgets can be used with most mobile devices equipped with capacitive touch screens, e.g. Apples iPad, iPhone or similar devices.
 
-<iframe class="youtube-player" width="476" height="268" src="https://www.youtube-nocookie.com/embed/jPF3APXzyX4?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube_video.html video_id="jPF3APXzyX4" %}
