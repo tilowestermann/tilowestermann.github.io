@@ -15,4 +15,4 @@ How will we control our home appliances in ten years? Will every new device stil
 
 My thesis focuses on this obvious problem by looking for an alternative to the conventional remote control. As speech-based interfaces are still very prone to error, the investigation of a gesture-based interaction modality seems worthwhile, since in addition to voice gestures represent a natural form of communication for people.
 
-<iframe class="youtube-player" width="476" height="268" src="https://www.youtube-nocookie.com/embed/y0DYzxYGdhc?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube_video.html video_id="y0DYzxYGdhc" %}
