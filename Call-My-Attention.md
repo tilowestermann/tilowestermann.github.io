@@ -17,6 +17,6 @@ links:
 
 “Call My Attention” is an application for immediate Line-of-Sight Signaling on Mobile Phones. The application proposes a mobile device function to be used like a remote control, for achieving immediate attention. It results from the Project “Speechless” at the [Design Research Lab](http://www.design-research-lab.org) of the University of the Arts in collaboration with T-Labs Berlin.
 
-<iframe class="youtube-player" width="476" height="268" src="https://www.youtube-nocookie.com/embed/Ph4qdQVNtC0?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube_video.html video_id="Ph4qdQVNtC0" %}
 
 The project explores challenges and possibilites for disability-inspired interaction. Main goals are to find ways for enhancing Human-Computer-Interaction (HCI) and Information-Communication-Technology (ICT) by transferring properties and principles from ‘disability’ context into general contexts of communication. Therefore we investigate on alternative interaction techniques inspired e.g. by deaf communication or blind navigation.
