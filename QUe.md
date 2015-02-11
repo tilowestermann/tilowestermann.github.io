@@ -16,9 +16,14 @@ team:
  - {name: "Jinjin Li"}
  - {name: "Benjamin Mateev"}
 links: 
- - {href: "http://interspeechapp.qu.tu-berlin.de", title: "InterspeechApp Website"}
- - {href: "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=675629646&mt=8", title: "InterspeechApp @ Apple App Store"}
- - {href: "https://play.google.com/store/apps/details?id=de.qu.interspeech", title: "InterspeechApp @ Google Play Store"}
+ - {href: "https://itunes.apple.com/us/app/interspeech/id675629646?mt=8", title: "Interspeech 2013 iOS App @ Apple App Store"}
+ - {href: "https://play.google.com/store/apps/details?id=de.qu.interspeech", title: "Interspeech 2013 Android App @ Google Play Store"}
+ - {href: "https://itunes.apple.com/us/app/daga-2014/id821657972?mt=8", title: "DAGA 2014 iOS App @ Apple App Store"}
+ - {href: "https://play.google.com/store/apps/details?id=de.qu.daga2014 ", title: "DAGA 2014 Android App @ Google Play Store"}
+ - {href: "https://itunes.apple.com/us/app/dga-2014/id824205049?mt=8", title: "DGA 2014 iOS App @ Apple App Store"}
+ - {href: "https://play.google.com/store/apps/details?id=de.qu.dga2014", title: "DGA 2014 Android App @ Google Play Store"}
+ - {href: "https://itunes.apple.com/us/app/interspeech-2014/id913928369?mt=8", title: "Interspeech 2014 iOS App @ Apple App Store"}
+ - {href: "https://play.google.com/store/apps/details?id=de.tel.quenference.activities", title: "Interspeech 2014 Android App @ Google Play Store"}
 ---
 
 Initially targeted at Interspeech 2013 in Lyon, this is a conference application for smartphones.
