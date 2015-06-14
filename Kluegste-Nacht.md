@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Klügste Nacht"-App
+title: Klügste Nacht-App
 permalink: /projects/Kluegste-Nacht/
 short_name: KluegsteNacht
 date: 2015-06-13
