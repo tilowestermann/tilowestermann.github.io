@@ -4,7 +4,7 @@ title: Klügste Nacht-App
 permalink: /projects/Kluegste-Nacht/
 short_name: KluegsteNacht
 date: 2015-06-13
-excerpt: "The Klügste Nacht-App is the official app for the Long Night of the Sciences in Berlin and Potsdam."
+excerpt: "The Klügste Nacht-App is the official app for the Long Night of the Sciences in Berlin."
 cover_image: lndw_cover.jpg
 preview_image: lndw_preview.jpg
 team: 
