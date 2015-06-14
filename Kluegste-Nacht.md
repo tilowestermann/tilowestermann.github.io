@@ -15,6 +15,7 @@ links:
  - {href: "http://www.langenachtderwissenschaften.de", title: "Lange Nacht der Wissenschaften Berlin"}
  - {href: "https://app.kluegste-nacht.de", title: "Klügste Nacht-App Website"}
  - {href: "https://itunes.apple.com/de/app/klugste-nacht-lange-nacht/id994948286?ls=1&mt=8", title: "Klügste Nacht-App on the App Store"}
+ 
 ---
 
 The [Quality and Usability Lab](http://qu.tu-berlin.de) provides the app for the [Long Night of the Sciences in Berlin + Potsdam](http://http://www.langenachtderwissenschaften.de) since 2012.
