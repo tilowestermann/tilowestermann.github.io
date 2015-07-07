@@ -15,10 +15,11 @@ links:
 
 The smart shower meter [amphiro a1](http://amphiro.com/products/a1/) displays the water and energy consumption for every individual shower taken in real time, as well as current shower temperature and energy efficiency class. Using the app, you can monitor the energy and water consumption of your previous 150 showers. This helps you to develop a better sense for your resource use in the shower and to reduce your consumption without giving up your comfort.
 
-Features:
+*Features:*
+
 * Monitor your water and energy consumption for showering
 * An online code contains data of the last 150 showers
 * Displays energy efficiency
 * Amphiro a1 support
 
-Responsibilities: Design and development of the iOS app
+*Responsibilities:* Design and development of the iOS app
