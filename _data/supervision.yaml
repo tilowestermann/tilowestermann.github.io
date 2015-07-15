@@ -1,5 +1,15 @@
 - type: "thesis"
   subtype: "Master's thesis"
+  title: "Design, Development and Evaluation of a back-end for a mobility app using a gamification approach"
+  person: "Jacob Kreyenbühl"
+  year: 2015
+- type: "thesis"
+  subtype: "Master's thesis"
+  title: "Design, Development and Evaluation of a Frontend for a Mobility App using a Gamification Approach"
+  person: "Michal Stawski"
+  year: 2015
+- type: "thesis"
+  subtype: "Master's thesis"
   title: "Design and Implementation of a mobile conference application for the iOS platform"
   person: "Benjamin Mateev"
   year: 2014
