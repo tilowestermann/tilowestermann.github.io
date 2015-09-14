@@ -1,4 +1,9 @@
 - type: "thesis"
+  subtype: "Bachelor's thesis"
+  title: "Understanding user acceptance of mobile push notifications by the example of a German location-based service"
+  person: "Sean Keith"
+  year: 2015
+- type: "thesis"
   subtype: "Master's thesis"
   title: "Design, Development and Evaluation of a back-end for a mobility app using a gamification approach"
   person: "Jacob Kreyenbühl"
