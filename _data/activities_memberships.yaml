@@ -1,3 +1,7 @@
+- type: "Conference App Chair"
+  preposition: "of"
+  organizations:
+  - {name: "Interspeech 2015", link: "http://interspeech2015.org"}
 - type: "Member"
   preposition: "of the"
   organizations:
