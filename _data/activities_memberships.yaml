@@ -15,4 +15,5 @@
   preposition: "for"
   organizations:
   - {name: "International Journal of Human-Computer Studies", link: "http://www.journals.elsevier.com/international-journal-of-human-computer-studies"}
+  - {name: "MobileHCI", link: "http://mobilehci.acm.org"}
   - {name: "CHI", link: "http://www.sigchi.org"}
