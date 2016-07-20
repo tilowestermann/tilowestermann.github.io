@@ -7,10 +7,11 @@ date: 2012-01-01
 excerpt: "MoCCha is a mobile campus application that is used as a research platform."
 cover_image: moccha_cover.jpg
 preview_image: moccha_preview.jpg
-team: 
+team:
  - {name: "Tilo Westermann"}
+ - {name: "Justus Beyer", homepage: "https://justus.berlin"}
  - {name: "Sebastian Möller", homepage: "https://www.qu.tu-berlin.de/menue/team/professur"}
-links: 
+links:
  - {href: "http://moccha.org", title: "MoCCha Website"}
 ---
 
