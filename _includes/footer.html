@@ -81,6 +81,18 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.xing_username %}
+          <li>
+            <a href="https://www.xing.com/profile/{{ site.xing_username }}" title="{{ site.xing_username }} on XING">
+              <span class="icon icon--xing">
+                <svg viewBox="0 0 16 16">
+                  <path d="M9.398,16l-3.578,-6.273l5.553,-9.727l3.738,0l-5.553,9.727l3.578,6.273l-3.738,0ZM3.524,11.162l2.776,-4.571l-2.082,-3.667l-3.524,0l2.082,3.667l-2.776,4.571l3.524,0Z"  fill="#828282"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
