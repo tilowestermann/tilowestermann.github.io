@@ -9,7 +9,7 @@ cover_image: amphiro_cover.jpg
 preview_image: amphiro_preview.jpg
 links:
 - {href: "http://amphiro.de", title: "amphiro"}
-- {href: "https://itunes.apple.com/en/app/amphiro/id781450977?mt=8", title: "amphiro App on the App Store"}
+- {title: "amphiro App on the App Store"}
 - {href: "http://www.sense4en.tu-berlin.de", title: "Sense4En (EIT Climate-KIC project)"}
 ---
 
