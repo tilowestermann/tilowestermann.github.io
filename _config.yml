@@ -1,5 +1,6 @@
 # Site settings
 title: Tilo Westermann
+academic_degree: Dr.-Ing.
 email: mail@tilowestermann.eu
 description: HCI Researcher
 baseurl: "" # the subpath of your site, e.g. /blog/
